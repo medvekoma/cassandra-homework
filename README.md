@@ -1,7 +1,7 @@
 # Cassandra Homework 
 
 ## Context
-We are developing the backend of an invoicing system. The system can receive two types pf messages:
+We are developing the backend of an invoicing system. The system can receive two types of messages:
 
 1. HEADER [invoice_id, invoice_date, invoice_address]
 1. DETAIL [invoice_id, line_id, article_name, article_price]
@@ -21,6 +21,8 @@ select statements in the `03-query-readonly.sql` can be executed without changes
 ## Installing and Using Cassandra
 
 There are two easy ways to use Cassandra on your computer, detailed under the following chapters.
+
+**Important:** Install the latest version (at least 3.4). 
 
 ### Download and unpack
  
